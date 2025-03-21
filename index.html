@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <header id="header">
+        <h1 id="main_header">Бесплатные курсы от freeCodeCamp.</h1>
+        <div id="header-group">
+            <figure id="FreeCodeCamp_figure">
+                <img id="header-img" src="image/FreeCodeCamp_logo.png" alt="">
+                <figcaption >Логотип freeCodeCamp</figcaption>
+            </figure>
+            <nav id="nav-bar">
+                <a id="nav-link" href="#about">Что такое freeCodeCamp</a>
+                <a id="nav-link" href="#courses">Какие курсы есть на сайте</a>
+                <a id="nav-link" href="#help">Как помочь сообществу</a>
+                <a id="back" href="#header">↑</a>
+            </nav>
+            <div class="iconsSocial">
+                <span>Они есть здесь: </span>
+                <img src="icon/instagram.png" alt="icon instagram">
+                <img src="icon/telegram.png" alt="icon telegram">
+                <img src="icon/github.png" alt="icon github">
+                <img src="icon/youtube.png" alt="icon youtube">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Что такое freeCodeCamp.</h2>
+            <p>FreeCodeCamp — это некоммерческая образовательная платформа, 
+            которая помогает людям по всему миру бесплатно изучать 
+            программирование и веб-разработку. Основан в 2014 году Куинси Ларсоном.
+            </p>
+            <p>Цель freeCodeCamp — сделать обучение программированию доступным 
+                для каждого, независимо от возраста, места проживания или 
+                финансовых возможностей. 
+            </p>
+            <span id="advantages_text">Преимущества freeCodeCamp:</span>
+            <ul id="advantages_list">
+                <li>Бесплатные курсы.</li>
+                <li>Интерактивные задания и проекты.</li>
+                <li>Поддержка сообщества.</li>
+            </ul>
+            <video src="" id="video"></video>
+        </section>
+        <section id="courses">
+            <h2>Какие курсы есть на сайте.</h2>
+            <p>На freeCodeCamp вы можете научиться создавать сайты с нуля, работать
+            с базами данных DataSince а так же многое другое... </p>
+            <div class="DescriptionGroud">
+                <span>Основные направления:</span>
+                <ul class="listDescription">
+                    <li>Веб-разработка (HTML, CSS, JavaScript).</li>
+                    <li>Фронтенд-разработка (React, Redux).</li>
+                    <li>Бэкенд-разработка (Node.js, Express, MongoDB).</li>
+                    <li>Data Science (Python, Pandas, NumPy).</li>
+                </ul>                         
+                <span>Формат обучения:</span>
+                <ul class="listDescription">
+                    <li>Интерактивные уроки с практическими заданиями.</li>
+                    <li>Реальные проекты для портфолио.</li>
+                    <li>Сертификаты по завершении курсов.</li>
+                </ul>                
+            </div>            
+        </section>
+    </section>
+    <section id="help">
+        <h2>Как помочь сообществу.</h2>
+        <div class="DescriptionGroup">
+            <span>Почему важно помогать:</span>
+            <ul class="listDescription">
+                <li>freeCodeCamp существует благодаря поддержке волонтёров 
+                    и пожертвований.</li>
+                <li>Помощь сообществу помогает развивать проект и делать 
+                    его ещё лучше.</li>
+            </ul>                         
+            <span>Как можно помочь:</span>
+            <dl>
+                <dt>Пожертвования:</dt>
+                <dd>Финансовая поддержка через Open Collective или 
+                            Patreon.</dd>
+
+                <dt>Волонтёрство:</dt>
+                <dd>Перевод статей и уроков на другие языки.</dd>
+                <dd>Помощь в разработке новых курсов.</dd>
+                <dd>Участие в создании open-source проектов.</dd>
+
+                <dt>Распространение информации:</dt>
+                <dd>Рассказать о freeCodeCamp друзьям, коллегам, 
+                            в социальных сетях.</dd>
+                <dd>Поделиться своими успехами и проектами, 
+                            созданными благодаря freeCodeCamp.</dd>
+            </dl>              
+        </div> 
+        <form method="get" action="https://www.freecodecamp.com/email-submit" 
+        id="form">
+            <label for="text-area">Напишите обратную связь или ваши предложения 
+                по развитию freeCodeCamp.</label>
+            <input type="text" placeholder="Ввидите текст..." 
+            name="text-area" id="text-area">
+            <label for="email">Укажите вашу почту: </label>
+            <input type="email" id="email" placeholder="Ввидите вашу эл.почту">
+            <input type="submit" value="Отправить" id="submit">
+        </form>
+    </section>
+    <footer>
+        <span>My practical 
+        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page">
+        assignment
+        </a>for FreeCodeCamp. 
+        </span>
+        <i>&copy; Oregu404</i> 
+    </footer>
+    </main>
+</body>
+</html>

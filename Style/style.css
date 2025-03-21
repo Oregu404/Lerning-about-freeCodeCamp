@@ -1,0 +1,84 @@
+header {
+    padding: 3vh 1vw;
+    background-color: rgba(0, 0, 80, 70%);
+    color: #B0C4DE;
+    width: 80%;
+    margin: 0 auto;
+}
+#FreeCodeCamp_figure {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:  0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+#header-img {
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#FreeCodeCamp_figure figcaption {
+    width: 60%;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+#main_header {
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+    color: #00BFFF
+}
+#nav-bar:not(:last-child) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 0;
+    background-color: #00BFFF;
+    border-radius: 10px;
+}
+#back {
+    position: fixed;
+    margin-left: 70vw;
+    margin-top: 75vh;
+    color: black;
+    font-size: 3rem;
+}
+#header-group a:not(:last-child) {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+    letter-spacing: 2%;
+    font-weight: 600;
+}
+#header-group a:hover:not(:last-child) {
+    color: rgb(250, 3, 3);
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 1%;
+}
+.iconsSocial img {
+    width: 3%;
+}
+#header-group {
+    display: grid;
+    grid-template-columns: 30% 40% 65%;
+    gap: 5%;
+    padding: 2%;
+}
+.iconsSocial {
+    display: flex;
+    align-items: center;
+    gap: 0.6vw;   
+}
+main {
+    box-sizing: border-box;
+    width: 60%;
+    margin: 0 auto;
+    border: 0.2vw solid rgba(0, 0, 80, 70%);
+    border-top: transparent;
+    border-bottom: transparent;
+    padding: 1vw;
+}
