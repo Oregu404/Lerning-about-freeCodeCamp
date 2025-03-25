@@ -42,9 +42,10 @@ header {
 #back {
     position: fixed;
     margin-left: 70vw;
-    margin-top: 75vh;
+    margin-top: 70vh;
     color: black;
     font-size: 3rem;
+    text-decoration: none;
 }
 #header-group a:not(:last-child) {
     color: black;
@@ -60,25 +61,72 @@ header {
     padding: 1%;
 }
 .iconsSocial img {
-    width: 3%;
+    width: 3vw;
+    margin: 0;
+    padding: 0;
+}
+.iconsSocial span {
+    padding: 0;
+    margin: 0;
 }
 #header-group {
     display: grid;
-    grid-template-columns: 30% 40% 65%;
+    grid-template-columns: 30% 40% 20%;
     gap: 5%;
-    padding: 2%;
+    padding: 3% 2%;
 }
 .iconsSocial {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 0.6vw;   
+    gap: 0.6vw;  
+    flex-wrap: wrap;
 }
 main {
     box-sizing: border-box;
     width: 60%;
     margin: 0 auto;
-    border: 0.2vw solid rgba(0, 0, 80, 70%);
+    border: 0.5vw solid rgba(0, 0, 80, 70%);
     border-top: transparent;
     border-bottom: transparent;
-    padding: 1vw;
+    padding: 0;
+    letter-spacing: 2%;
+}
+html {
+    font-family: 'APHont', sans-serif;
+    background-color: azure;
+    scroll-behavior: smooth;
+}
+section h2 {
+    text-align: center;
+    font-size: 3rem;
+    background-color: blueviolet;
+    width: 100%;
+    color: aliceblue;
+    padding: 12px 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'APHont';
+    src: 
+        url('../font-family/aphont/APHont-Bold_q15c.ttf') format('truetype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'APHont';
+    src: 
+        url('../font-family/aphont/APHont-Regular_q15c.ttf') format('truetype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'APHont';
+    src: 
+        url('../font-family/aphont/APHont-italic_q15c.ttf') format('truetype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'APHont';
+    src: 
+        url('../font-family/aphont/APHont-Bolditalic_q15c.ttf') format('truetype');
+    font-display: swap;
 }
